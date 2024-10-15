@@ -25,7 +25,7 @@ def div(arg1,arg2):
     try:
         return int(arg1)/int(arg2)
     except ValueError: 
-        print("Un des arguments n'est pas un entier.") 
+        print("Un des arguments n'est pas un entier, division par 0 impossible.") 
     except ZeroDivisionError:
         print("Vous divisez par 0.")
 
