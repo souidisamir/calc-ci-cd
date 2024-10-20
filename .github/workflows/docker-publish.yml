@@ -31,4 +31,4 @@ jobs:
           context: ./sources
           file: ./sources/Dockerfile
           push: true
-          tags: namespace/samirsouidi:1.0.${{github.run_number}}
+          tags: samirsouidi/calc-ci-cd:1.0.${{github.run_number}}
