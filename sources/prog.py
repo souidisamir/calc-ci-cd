@@ -21,7 +21,7 @@ def run_calc():
         )
         if keep_going == "Oui":
             sys.exit(0)
-    print("Nous allons recommencer le programme\n")
+    print("Nous allons recommencer le programme dd\n")
     run_calc()
 
 
